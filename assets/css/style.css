@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo img {
+    width: 90px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    position: relative;
+}
+
+/* .nav-links li a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #1c4b2e;
+    transition: 0.3s;
+} */
+
+.nav-links li a:hover{
+    width: 100%;
+    color: #7eca9b;
+    
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .icon i {
+    color: #D50C0D;
+    font-size: 20px;
+} */
+
+.icon input[type="search"] {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* Buttons */
+.primary-button {
+    background-color: white;
+    color: #1c4b2e;
+    border-radius: 25px;
+    border: solid;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+#btn{
+    background-color: #1c4b2e;
+
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    
+}
+.primary-button:hover {
+    background-color: white;
+    color:#1c4b2e ;
+    border: 2px solid #1c4b2e;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("../imges/tree.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #0e341d;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    
+}
+
+.about-img {
+    width: 35%;
+    margin-left: 8%;
+}
+
+.about-img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-text small {
+    color: #D1CEC8;
+}
+
+.about-text h2 {
+    margin: 15px 0;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+/* Cards Section */
+.cards {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.card {
+    background: #f4f4f4;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    width: 300px;
+    height: 50vh;
+    vertical-align: top;
+   
+    background-size: cover;
+    
+}
+#one{
+     background-image: url("../imges/giorgio-trovato-6rlMgGzdGwM-unsplash.jpg") ;
+     
+}
+#two{
+     background-image: url("../imges/element5-digital-CpBBsda2eRI-unsplash.jpg") ;
+     
+}
+
+#three{
+     background-image: url("../imges/nathan-dumlao-7VUBgjh2ESw-unsplash.jpg") ;
+     
+}
+
+.cards-text {
+    margin-top: 20px;
+    
+}
+
+/* App Section */
+.app-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.app-text {
+    width: 50%;
+    margin-left: 10%;
+    /* background-color: #7eca9b; */
+    margin-right: 2%;
+    height: 40vh;
+    align-self: center;
+}
+
+.app-img {
+    width: 40%;
+  
+}
+
+.app-img img {
+    width: 100%;
+}
+.app-text h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.app-text p {
+    color: #0e341d;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1c4b2e;
+    color: white;
+}
